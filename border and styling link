@@ -1,0 +1,45 @@
+<style>
+        #nav-bar {
+            width: 70%;
+            height: 80px;
+            background-color: aquamarine;
+            margin: 0 auto;
+            border-top: 5px gray solid;
+            border-radius: 20px;
+            border-left: 5px gainsboro double;
+            border-bottom: 5px darkblue ridge;
+
+        }
+
+        #nav-bar ul {
+           
+        }
+
+        #nav-bar ul li {
+            list-style-type: none;
+            margin: 20px;
+            float: left;
+        }
+
+        #nav-bar ul li a {
+            text-decoration: none;
+            font-size: 30px;
+            color: blue;
+        }
+
+        #nav-bar ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="nav-bar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Report</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </div>
